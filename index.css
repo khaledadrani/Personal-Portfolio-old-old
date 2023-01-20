@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    background: black;
+    color: white;
+    padding: 10px;
+  
+    /* align according to the main axis
+    which is the x-axis in this case */
+    justify-content: center;
+  
+    /* align according to the cross axis
+    which is the y-axis in this case */
+    align-items: center;
+  }
+  
+  .nav-bar-item {
+    list-style-type: none;
+    background: #3e3e3e;
+    margin: 0px 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-item {
+    width: 100px;
+    height: 100px;
+  }
+  
